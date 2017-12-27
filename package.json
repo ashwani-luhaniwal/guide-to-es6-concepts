@@ -1,0 +1,32 @@
+{
+  "name": "guide-to-es6-concepts",
+  "version": "1.0.0",
+  "description": "Introduction to ES6 using examples",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwani-luhaniwal/guide-to-es6-concepts.git"
+  },
+  "keywords": [
+    "ECMAScript",
+    "ES6",
+    "JavaScript"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwani-luhaniwal/guide-to-es6-concepts/issues"
+  },
+  "homepage": "https://github.com/ashwani-luhaniwal/guide-to-es6-concepts#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0",
+    "webpack": "^3.10.0"
+  }
+}
