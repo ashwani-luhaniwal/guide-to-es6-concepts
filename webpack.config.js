@@ -2,10 +2,11 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './EmployeeDirectory/js/app.js',
+    entry: './ES6_Variables/variables.js',
     output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'app.bundle.js'
+        // path: path.resolve(__dirname, 'build'),
+        filename: 'app.bundle.js',
+        publicPath: ''
     },
     module: {
         loaders: [
@@ -17,9 +18,5 @@ module.exports = {
                 }
             }
         ]
-    },
-    stats: {
-        colors: true
-    },
-    devtool: 'source-map'
+    }
 };
