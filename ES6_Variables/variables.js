@@ -51,7 +51,7 @@ test();
 "use strict";
 function test() {
     var num = 100;
-    console.log("Value of num in test() " + num) {
+    console.log("Value of num in test() " + num); {
         console.log("Inner Block begins");
         let num = 200;
         console.log("Value of num: " + num);
@@ -73,8 +73,10 @@ function test() {
  *   during its declaration.
  * - The value assigned to "const" variable is immutable.
  */
-const x = 10;
-x = 12; // will result in an error!!!
+/*
+    const x = 10;
+    x = 12; // will result in an error!!!
+*/
 
 /**
  * --------------------------
