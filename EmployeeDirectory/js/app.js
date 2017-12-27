@@ -1,5 +1,6 @@
 import { error } from "util";
-import * as service from './employee-service';
+// import * as service from './employee-service';
+import { employees } from './employee-service-mock';
 
 service.findAll()
     .then(employees => {
